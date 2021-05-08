@@ -1,12 +1,18 @@
 
-# Useful Resourcs
+# Useful Resources
 
-- Google font
+- [Google font](www.Googlefont.com) This helped me get the exact and accurate font for this project.
 
--Youtube tutorials
+## links
 
-## Built with
+- live URL
+
+## My process 
+  
+  I spent few hours on the CSS file, figuring out how I could style the footer and logo.
+
+## Built with 
 
 - flexbox
-- html
-- css
+- HTML
+- CSS

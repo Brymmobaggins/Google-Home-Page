@@ -1,22 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-body {
+* {
   padding: 0px;
   margin: 0px;
   font-family: "Roboto", sans-serif;
-  /* position: fixed; */
+  box-sizing: border-box;
 }
+/* body {
+  min-height: 100vh;
+  display: flex;
+} */
 
 nav {
   display: flex;
   justify-content: space-around;
-  width: 20%;
+  align-items: center;
+  width: 25%;
   margin-left: auto;
   padding: 2em;
 }
 a {
-  color: black;
   text-decoration: none;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.87);
 }
 a:hover {
   text-decoration: underline;
@@ -26,51 +32,94 @@ a:hover {
 nav img {
   height: 20px;
 }
+nav button {
+  background-color: #4284f4;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 12px;
+  border: 1px solid #4284f4;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  outline: none;
+  cursor: pointer;
+}
+nav button:hover {
+  opacity: 0.9;
+}
 main {
   width: 50%;
   height: 50%;
   margin: 7em auto;
   text-align: center;
 }
+main img {
+  margin: 0px auto;
+  /* margin-top: 1000px; */
+}
 input {
-  width: 80%;
-  padding: 1.2em;
-  border-radius: 30px;
+  width: 85%;
+  padding: 13px;
+  padding-left: 40px;
+  font-size: 16px;
+  border-radius: 25px;
   border: 1px solid gray;
   outline: none;
   letter-spacing: 1px;
+  transition: 100ms;
+  outline: none;
+}
+input:hover {
+  border: 1px solid #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 2px rgba(0, 0, 0, 0.05),
+    0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 4px rgba(0, 0, 0, 0.05), 0 0 5px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05);
 }
 .btn {
-  margin-top: 1.8em;
+  margin-top: 28px;
 }
 .btn button {
-  padding: 1em;
-  border: none;
+  font-size: 14px;
+  padding: 9px 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 10px;
   cursor: pointer;
+  color: #666;
+  transition: 100ms;
+}
+.btn button:hover {
+  border: 1px solid #aaaa;
 }
 .google-lang {
   margin: 1em;
   justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
 }
 .google-lang a {
-  color: rgb(61, 61, 255);
+  color: #1a0dab;
   margin-right: 1em;
 }
 footer {
-  background-color: rgb(219, 218, 218);
+  background-color: #f2f2f2;
+  font-weight: 400;
 }
 .footer-top {
   padding: 1em;
+  line-height: 15px;
+  padding-left: 20px;
 }
 .footer-bottom {
   padding: 1em;
   display: flex;
   justify-content: space-between;
-  border: 1px solid gray;
+  border-top: 1px solid gray;
 }
-.left a {
+.link-1 a {
   margin-right: 1em;
 }
-.right a {
+.link-2 a {
   margin-right: 1em;
 }
